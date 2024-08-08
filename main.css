@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+html {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.25rem;
+}
+body {
+  background-color: #ebf4f5;
+}
+/* Header Start */
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90px;
+  border-bottom: 1px solid black;
+  padding: 0 0.75rem;
+  background-color: #1b2836;
+}
+
+
+header ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+
+header ul li a {
+  padding: 0.75rem;
+}
+header ul li a:hover {
+  border-radius: 3px;
+  background: #336ea2;
+  color: #ebf4f5;
+  transition: all 0.6s;
+}
+
+
+.header-center .logo {
+  width: 110px;
+  height: 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2rem;
+}
+.header-center .logo img {
+  width: 100%;
+  height: 0 auto;
+}
+/* Header End */
+/* Note Start */
+#note {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #1b2836;
+}
+#note img {
+  width: 50%;
+  height: 0 auto;
+  border-radius: 100%;
+  margin: 10px;
+}
+#note p{
+  letter-spacing: 5px;
+}
+/* Note End */
+/* About */
+#about {
+  margin: 1.5rem;
+}
+#about .container {
+  gap: 10px;
+  display: flex;
+  align-items: center;
+  /* border-bottom: 1px solid #1b2836; */
+  max-width: 100%;
+}
+#about .container .about-left-img {
+  width: 40vh;
+}
+#about .container .about-left p {
+  letter-spacing: 0.1rem;
+  font-size: 1.25rem;
+}
+#about .container img {
+  width: 100%;
+  height: 0 auto;
+  background-repeat: no-repeat;
+  margin-bottom: 10px;
+  border-radius: 15px;
+}
+/* About-End */
+/* Contact */
+#contact {
+  color: #fff;
+  border-radius: 14px;
+  /* padding: 1rem; */
+  padding: 1rem;
+  width: 100%;
+}
+
+#contact .contact-left {
+  float: left;
+  justify-content: center;
+  align-items: center;
+  /* margin-left: 2rem; */
+}
+#contact .contact-form {
+  /* max-width: 700px; */
+  display: flex;
+  flex-direction: column;
+}
+
+#contact .contact-left .btn {
+  margin-left: 1rem;
+}
+#contact .contact-right {
+  float: right;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  margin: 4rem;
+  gap: 10px;
+  letter-spacing: 2px;
+}
+
+#contact .social-media {
+  font-size: 1.5rem;
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
