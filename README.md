@@ -2,4 +2,7 @@
 Learning Project 1
 
 
-![page-gif](https://github.com/user-attachments/assets/b5932f00-f332-4326-a7c4-6c0558af139f)
+
+
+https://github.com/user-attachments/assets/8011db3c-9c5b-4654-acdb-61418f23e585
+
