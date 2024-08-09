@@ -1,5 +1,5 @@
-# Learningproject-1
-Learning Project 1
+# Learningproject
+Learning Project
 
 
 
